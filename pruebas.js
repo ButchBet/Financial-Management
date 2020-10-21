@@ -51,7 +51,7 @@ function choose(a){
 
 
       if(subtotal > 0){
-        validation(subtotal)
+        secondValidation(subtotal)
       }
       else{
         alert("Great, have a nice")
@@ -62,7 +62,7 @@ function choose(a){
       alert("Good, then we are going to spend " + spendMoney)
       subtotal = entryLessEgress - spendMoney
       if(subtotal > 0){
-        validation(subtotal)
+        secondValidation(subtotal)
       }
       else{
         alert("Great, have a nice")
@@ -73,7 +73,7 @@ function choose(a){
      alert("Good, then we are going to save " + saveBank)
      subtotal = entryLessEgress - saveBank
      if(subtotal > 0){
-      validation(subtotal)
+      secondValidation(subtotal)
     }
     else{
       alert("Great, have a nice")
